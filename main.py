@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def homepage():
-    return 'homepage.html'
+    return 'index.html'
 
 @app.route("/compracerta")
 def compra_certa():
